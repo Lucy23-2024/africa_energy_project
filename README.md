@@ -1,13 +1,13 @@
-# 🌍 Energy Data Extraction and MongoDB Storage (2000–2024)
+# Energy Data Extraction and MongoDB Storage (2000–2024)
 
-## 📘 Overview
+## Overview
 This project extracts **energy-related data for African countries (2000–2024)** from the **Africa Energy Portal (AEP)**, formats it according to a standard schema, and stores it in **MongoDB**.  
 
 It was completed as part of the **Internship Week 1** task on *Energy Data Extraction and MongoDB Storage*.  
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 ```
 AFRICA_ENERGY_PROJECT/
 │
@@ -24,12 +24,12 @@ AFRICA_ENERGY_PROJECT/
 └── README.md                     # Project documentation (this file)
 ```
 
-💡 *Note:* The `.json` files are the manually downloaded datasets from the Africa Energy Portal.  
+*Note:* The `.json` files are the manually downloaded datasets from the Africa Energy Portal.  
 They are combined and cleaned within the Jupyter notebook.
 
 ---
 
-## 🧩 Project Workflow
+## Project Workflow
 
 ### 1. **Data Collection**
 - Data was obtained manually from the **[Africa Energy Portal](https://africa-energy-portal.org/)**.
@@ -59,7 +59,7 @@ They are combined and cleaned within the Jupyter notebook.
 
 ---
 
-## 🗄️ MongoDB Storage
+## MongoDB Storage
 
 After exporting the cleaned dataset (`africa_energy_data.csv`), it was inserted into a **MongoDB** collection.  
 Each record represents **one energy metric for one country** across the years 2000–2024.
@@ -83,7 +83,7 @@ The MongoDB collection mirrors the CSV structure — with text fields for identi
 
 ---
 
-## ✅ Validation & Checks
+## Validation & Checks
 
 | Check | Description |
 |-------|--------------|
@@ -93,13 +93,13 @@ The MongoDB collection mirrors the CSV structure — with text fields for identi
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 - **Python** → `pandas`, `json`, `glob`
 - **MongoDB** → NoSQL database for data storage
 - **Africa Energy Portal** → Primary data source
 
 ---
 
-## 👩🏽‍💻 Author
+## Author
 **Lucy Joan**  
 Intern – Lux Academy  
